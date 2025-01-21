@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Mengatur tinggi html dan body menjadi 100% */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8e7e9;
+    display: flex;
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+}
+
+.login-container {
+    flex: 1; /* Membuat kontainer login mengambil ruang yang tersedia */
+    display: flex;
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center; /* Memusatkan konten secara vertikal */
+    padding-bottom: 130px; /* Menambahkan padding atas */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #009ce4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 33px;
+    position: relative;
+}
+
+#back{
+    position: relative;
+    bottom: 40px;
+}
+
+button:hover {
+    background-color: #7ca0a5;
+}
+
+.lupa {
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e95aa;
+    padding: 10px; /* Menambahkan padding untuk footer */
+    color: white;
+}
+
+/* CADANGAN
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8e7e9;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    position: relative;
+    padding-top: 30px;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 27px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #009ce4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 24px;
+    position: relative;
+}
+
+button:hover {
+    background-color: #7ca0a5;
+}
+
+#back {
+    top: 13px;
+    position: relative;
+}
+
+.lupa {
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e95aa;
+    position: relative;
+    flex: 1;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    bottom: 1%;
+}
+
+.footer footer{
+    font-size: 20px;
+    margin: 10px;
+}
+*/

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Luas Segitiga</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <button id="backButton" onclick="goBack()">Kembali</button>
+        <h1>Menghitung Luas Segitiga</h1>
+        <form id="triangleForm">
+            <label for="base">Masukan Alas (cm):</label>
+            <input type="number" id="base" required>
+
+            <label for="height">Masukan Tinggi (cm):</label>
+            <input type="number" id="height" required>
+
+            <button type="submit">Hitung Luas</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="segitiga.js"></script>
+</body>
+</html>
